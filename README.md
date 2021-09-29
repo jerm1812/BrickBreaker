@@ -1,4 +1,4 @@
-# BrickBreaker
+# Brick Breaker
 
 This is a simple brick breaker game.
 
@@ -20,3 +20,9 @@ Use the left and right arrow keys to move the paddle.
 - Start: starts the game
 - Restart: resets the game to the original state
 - Disable/enable abyss: toggles whether the ball can be lost
+
+#### paddle bounce
+- Edge right and left: depending on which direction the ball is traveling the ball will speed up or reverse directions
+- Inner right and left: depending on which direction the ball is traveling the ball will speed up or slow down
+- Middle: normal bounce
+
