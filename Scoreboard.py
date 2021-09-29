@@ -28,4 +28,5 @@ class Scoreboard:
 
     # Updates the level on scoreboard
     def update_level(self):
+        self.level += 1
         self.level_txt.setText(str(self.level))

@@ -130,7 +130,8 @@ class Game:
     # Setts the game up
     def setup_game(self):
         self.levels.level_one()
-        self.new_ball()
+        for i in range(1):
+            self.new_ball()
         self.waiting()
         self.game_loop()
 
@@ -203,7 +204,8 @@ class Game:
         if self.levels.level < 3:
             self.levels.next_level()
             self.scoreboard.update_level()
-            self.new_ball()
+            for i in range(1):
+                self.new_ball()
         else:
             self.win_game()
 
